@@ -1,0 +1,40 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android / Gradle
+.gradle/
+/build/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin / Java
+*.class
+
+# Secrets
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Database backups containing real data
+database/backups/*
+!database/backups/.gitkeep
+
+# Local configuration
+backend/.data/
